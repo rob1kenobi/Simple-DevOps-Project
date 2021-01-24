@@ -83,7 +83,7 @@
 1. Deploying Nginx Container
     ```sh
     kubectl run sample-nginx --image=nginx --replicas=2 --port=80
-    # kubectl run simple-devops-project --image=yankils/simple-devops-image --replicas=2 --port=8080
+    # kubectl run simple-devops-project --image=rob1kenobi/simple-devops-image --replicas=2 --port=8080
     kubectl get pods
     kubectl get deployments
    ```
